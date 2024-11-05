@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.dot1{
+    background-color: blue;
+    animation-name: dot1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+.dot2{
+    background-color: red;
+    animation-name: dot2;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0.1s;
+}
+.dot3{
+    background-color: yellow;
+    animation-name: dot3;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 0.3s;
+}
+.dot4{
+    background-color: green;
+    animation-name: dot4;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+}
+@keyframes dot1{
+    0%{
+        transform: translatey(-50px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: scaleY(7);
+    }
+}
+@keyframes dot2{
+    0%{
+        transform: translatey(-50px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: scaleY(5);
+    }
+}
+@keyframes dot3{
+    0%{
+        transform: translatey(-50px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: scaleY(5);
+    }
+}
+@keyframes dot4{
+    0%{
+        transform: translatey(-50px);
+    }
+    25%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-50px);
+    }
+    75%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: scaleY(7);
+    }
+}

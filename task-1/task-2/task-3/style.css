@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 50vh;
+    /* gap: 1px; */
+}
+.bar{
+    width: 20px;
+    height: 20px;
+    border: 2px solid;
+}
+.bar1{
+  background-color: aqua;
+  animation-name: height1;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+  animation-timing-function: ease;
+}
+.bar2{
+  background-color: aqua;
+  animation-name: height2;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+}
+.bar3{
+    background-color: aqua;
+    animation-name: height3;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    /* animation-delay: 0.5s; */
+}
+.bar4{
+    background-color: aqua;
+    animation-name: height4;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.2s;
+}
+.bar5{
+    background-color: aqua;
+    animation-name: height5;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in;
+    /* animation-delay: 0.2s;  */
+}
+@keyframes height1{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 80px;
+    }
+}
+@keyframes height2{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 60px;
+    }
+}
+@keyframes height3{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 80px;
+    }
+}
+@keyframes height4{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 50px;
+    }
+}
+@keyframes height5{
+    from{
+        height: 20px;
+    }
+    to{
+        height: 80px;
+    }
+}
